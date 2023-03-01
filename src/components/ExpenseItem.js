@@ -1,5 +1,5 @@
 import React from 'react'
-import {MdEditNote, MdOutlineDeleteOutline} from "react-icons/md"
+import {MdEdit, MdOutlineDeleteOutline} from "react-icons/md"
 
 const ExpenseItem = ({expense}) => {
 const {id, charge, amount} = expense
@@ -11,7 +11,7 @@ const {id, charge, amount} = expense
             </div>
             <div>
                 <button className='edit-btn' aria-label="edit button">
-                    <MdEditNote />
+                    <MdEdit />
                 </button>
                 <button className='clear-btn' aria-label="delete button">
                     <MdOutlineDeleteOutline />
