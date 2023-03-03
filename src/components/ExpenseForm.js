@@ -38,6 +38,7 @@ const ExpenseForm = ({
             </div>
             <button type="submit" className='btn'>
                 {edit ? 'edit' : 'submit'}
+                { false ? 'hi': 'bye'}
                 <MdSend className='btn-icon' />
             </button>
         </form>
